@@ -93,12 +93,21 @@
 .sign-txt a{
     text-decoration: none;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width:900px){
+    .Main{
+        flex-wrap: wrap;
+    }
     .bell-img{
         display: none;
     }
     .create-img{
         display: none;
+    }
+    .micro-img{
+        display: none;
+    }
+    .search-box-action .search-box-action input{
+        width: 100px;
     }
 }
 
