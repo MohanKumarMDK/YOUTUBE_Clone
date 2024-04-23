@@ -1,0 +1,127 @@
+.play-video{
+    flex-basis: 69%;
+}
+.play-video iframe{
+    width: 100%;
+    height: 35Vw;
+}
+.play-video h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
+.play-video-info img{
+    width: 20px;
+    margin-right: 8px
+}
+.play-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.play-video-info hr{
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    margin: 10px 0;
+}
+.channel-name{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.channel-name div{
+    flex: 1;
+    line-height: 18px;
+}
+.channel-name img{
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.channel-name div p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.channel-name div span{
+    font-size: 13px;
+    color: rgb(78, 76, 76);
+}
+.channel-name button{
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.video-dis{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.video-dis p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+}
+.video-dis h4{
+    font-size: 14px;
+    color: grey;
+    margin-top: 15px;
+}
+.comment{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.comment img{
+    width: 35px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.comment h3{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.comment h3 span{
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+    margin-left: 8px;
+}
+.commet-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.commet-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.commet-action span{
+    margin-right: 20px;
+    color: grey;
+}
+
+
+@media only screen and (max-width:900px){
+    .play-video{
+        max-width: 100%;
+        width: 100%;
+    }
+
+}

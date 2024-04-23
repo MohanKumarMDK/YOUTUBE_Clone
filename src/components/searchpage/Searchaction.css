@@ -1,0 +1,131 @@
+.search-box-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.search-box-action input {
+        padding: 5px;
+        background-Color: transparent;
+        border: 2px solid gray;
+        outline: 0;
+        color: black;
+        font-Size: 22px;
+        height: 2.5rem;
+        width: 500px;
+        border-radius: 50px;
+}  
+.vid-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+}
+    .Main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-wrap: nowrap;
+    }
+    .search-logo{
+        width: 100px;
+        object-fit: contain;
+        cursor: pointer;
+        display: block;
+        margin-left: 10px;
+        
+    }
+    .search-box-pro input{
+        padding: 5px;
+        background-color: transparent;
+        border: 2px solid gray;
+        outline: 0;
+        color: black;
+        font-size: 18px;
+        width: 500px;
+        border-radius: 50px;
+        margin-left: 50px;   
+    }  
+    .micro{
+        width: 40px;
+        object-fit: contain;
+        cursor: pointer; 
+        border: 2px solid rgb(202, 196, 196);
+        border-radius: 50%;
+        background-color: rgb(233, 221, 221);
+        display: block;
+        
+    }
+    .micro-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    } 
+    .create-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-right: 20px;
+    }
+    .create{
+        width: 40px;
+        object-fit: contain;
+        cursor: pointer; 
+        border: 2px solid white;
+        margin-left: 300px;
+    }
+    .bell{
+        width: 40px;
+        object-fit: contain;
+        cursor: pointer; 
+        border: 2px solid white;
+        border-radius: 50px;
+        background-color: transparent;
+        
+    }
+    .bell-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-right: 20px;
+    } 
+    
+    .log-txt h2{
+        width: auto;
+        cursor: pointer; 
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    .log-txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    } 
+    
+    .sign-txt a{
+        text-decoration: none;
+        color: blue;
+    }
+    @media only screen and (max-width:900px){
+
+        .bell-img{
+            display: none;
+        }
+        .create-img{
+            display: none;
+        }
+        .search-box-action .search-box-action input{
+            width: 100px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    

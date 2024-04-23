@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.scroll-bar{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-wrap: nowrap;
+}
+.scroll{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    border-bottom: 1px solid rgb(216, 208, 208);
+}
+.one{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size:medium;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    width: auto;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
