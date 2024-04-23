@@ -3,6 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap; /* Change flex-wrap to allow items to wrap */
+    border-bottom: 1px solid rgb(216, 208, 208);
+    padding: 0 10px; /* Add padding for better spacing */
+}
+
+.search-logo{
+    width: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+}
+
+.search-box-pro input{
+    padding: 10px; /* Increase padding for better touch interaction */
+    background-color: transparent;
+    border: 2px solid gray;
+    outline: 0;
+    color: black;
+    font-size: 16px; /* Decrease font size for mobile */
+    width: 100%; /* Make input full width */
+    border-radius: 50px;
+    margin-top: 10px; /* Adjust margin for better spacing */
+    margin-left: 10px; /* Adjust margin for better spacing */
+    margin-bottom: 5px;
+}
+
+.micro, .create, .bell{
+    width: 40px;
+    height: 40px; /* Add height for consistency */
+    object-fit: contain;
+    cursor: pointer;
+    border: 2px solid rgb(202, 196, 196);
+    border-radius: 50%;
+    background-color: rgb(233, 221, 221);
+    display: block;
+    margin-top: 10px; /* Adjust margin for better spacing */
+    margin-right: 10px; /* Adjust margin for better spacing */
+    margin-bottom: 5px;
+}
+
+.log-txt h2{
+    width: auto;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px 10px; /* Add padding for better touch interaction */
+    font-size: 14px; /* Decrease font size for mobile */
+    margin-top: 10px; /* Adjust margin for better spacing */
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .Main {
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .search-logo {
+        margin: 10px auto; /* Center logo on smaller screens */
+    }
+
+    .search-box-pro input {
+        width: calc(100% - 20px); /* Adjust width for smaller screens with padding */
+        margin: 10px auto; /* Center input on smaller screens */
+    }
+
+    .bell-img{
+        display: none;
+    }
+    .create-img{
+        display: none;
+    }
+    .micro-img{
+        display: none;
+    }
+
+    .log-txt h2 {
+        margin: 10px auto; /* Center button on smaller screens */
+    }
+}
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Main{
     display: flex;
     align-items: center;
@@ -110,9 +205,4 @@
         width: 100px;
     }
 }
-
-
-
-
-
-
+ */
