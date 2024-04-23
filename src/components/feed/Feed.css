@@ -1,4 +1,4 @@
-/* Default styles */
+
 
 .feed {
     display: grid;
@@ -32,67 +32,24 @@
     font-size: 14px;
 }
 
-/* Media query for mobile devices */
+
 @media only screen and (max-width: 768px) {
     .feed {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust column width for smaller screens */
-        margin-left: 10px; /* Adjust margin for better spacing on smaller screens */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+        margin-left: 10px; 
         margin-right: 10px;
     }
 
     .card h2 {
-        font-size: 14px; /* Decrease font size for smaller screens */
+        font-size: 14px; 
     }
 
     .card h3 {
-        font-size: 12px; /* Decrease font size for smaller screens */
+        font-size: 12px; 
     }
 
     .card p {
-        font-size: 12px; /* Decrease font size for smaller screens */
+        font-size: 12px; 
     }
 }
 
-
-
-
-
-
-/* .feed{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
-    grid-column-gap: 16px;
-    grid-row-gap: 30px;
-    margin-top: 15px; 
-    margin-left: 45px;
-}
-
-.card img{
-    width: 100%;
-    border-radius: 5px;
-}
-.card h2{
-    font-size: 16px;
-    font-weight: 600;
-    color: black;
-    margin: 5px 0;
-    
-}
-.card h3{
-    font-size: 14px;
-    font-weight: 600;
-    color: gray;
-    margin: 6px 0;
-}
-.card p{
-    font-size: 14px;
-}
-
-@media only screen and (max-width: 768px){
-    .feed{
-        justify-content: center;
-    }
-    .card{
-        width: calc(100%-20px);
-    }
-} */

@@ -10,9 +10,9 @@
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
-    flex-wrap: wrap; /* Change flex-wrap to allow items to wrap */
+    flex-wrap: wrap; 
     border-bottom: 1px solid rgb(216, 208, 208);
-    padding: 0 10px; /* Add padding for better spacing */
+    padding: 0 10px; 
 }
 
 .search-logo{
@@ -24,30 +24,30 @@
 }
 
 .search-box-pro input{
-    padding: 10px; /* Increase padding for better touch interaction */
+    padding: 10px; 
     background-color: transparent;
     border: 2px solid gray;
     outline: 0;
     color: black;
-    font-size: 16px; /* Decrease font size for mobile */
-    width: 100%; /* Make input full width */
+    font-size: 16px; 
+    width: 100%; 
     border-radius: 50px;
-    margin-top: 10px; /* Adjust margin for better spacing */
-    margin-left: 10px; /* Adjust margin for better spacing */
+    margin-top: 10px; 
+    margin-left: 10px; 
     margin-bottom: 5px;
 }
 
 .micro, .create, .bell{
     width: 40px;
-    height: 40px; /* Add height for consistency */
+    height: 40px; 
     object-fit: contain;
     cursor: pointer;
     border: 2px solid rgb(202, 196, 196);
     border-radius: 50%;
     background-color: rgb(233, 221, 221);
     display: block;
-    margin-top: 10px; /* Adjust margin for better spacing */
-    margin-right: 10px; /* Adjust margin for better spacing */
+    margin-top: 10px; 
+    margin-right: 10px; 
     margin-bottom: 5px;
 }
 
@@ -57,23 +57,23 @@
     border: 1px solid black;
     border-radius: 5px;
     background-color: transparent;
-    padding: 5px 10px; /* Add padding for better touch interaction */
-    font-size: 14px; /* Decrease font size for mobile */
-    margin-top: 10px; /* Adjust margin for better spacing */
+    padding: 5px 10px; 
+    font-size: 14px;
+    margin-top: 10px; 
     margin-bottom: 5px;
 }
 @media only screen and (max-width: 768px) {
     .Main {
-        flex-direction: column; /* Change flex direction for smaller screens */
+        flex-direction: column; 
     }
 
     .search-logo {
-        margin: 10px auto; /* Center logo on smaller screens */
+        margin: 10px auto; 
     }
 
     .search-box-pro input {
-        width: calc(100% - 20px); /* Adjust width for smaller screens with padding */
-        margin: 10px auto; /* Center input on smaller screens */
+        width: calc(100% - 20px); 
+        margin: 10px auto; 
     }
 
     .bell-img{
@@ -87,7 +87,7 @@
     }
 
     .log-txt h2 {
-        margin: 10px auto; /* Center button on smaller screens */
+        margin: 10px auto; 
     }
 }
 
