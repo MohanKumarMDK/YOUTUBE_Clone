@@ -112,31 +112,31 @@
         color: blue;
     }
     @media only screen and (max-width: 768px) {
-        .Main {
-            flex-direction: column; 
-        }
-    
-        .search-logo {
-            margin: 10px auto; 
-        }
-    
-        .search-box-action input {
-            width: calc(100% - 20px); 
-            margin: 10px auto; 
-        }
-    
-        .bell-img{
-            display: none;
-        }
-        .create-img{
-            display: none;
-        }
-        .micro-img{
-            display: none;
-        }
-    
-        .log-txt h2 {
-            margin: 10px auto; 
-        }
+    .Main {
+        flex-direction: row;
+        align-items: flex-start;
     }
+
+    .search-logo {
+        margin: 10px auto;
+    }
+
+    .search-box-action input {
+        margin: 10px auto;
+    }
+
+    .bell-img{
+        display: none;
+    }
+    .create-img{
+        display: none;
+    }
+    .micro-img{
+        display: none;
+    }
+
+    .log-txt {
+        margin: 10px auto;
+    }
+}
      
