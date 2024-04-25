@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .vid-main{
         display: flex;
         flex-direction: column;
@@ -16,8 +23,7 @@
         width: 100px;
         object-fit: contain;
         cursor: pointer;
-        display: block;
-        margin-left: 10px;   
+        display: block;  
     }
     .search-box-pro input{
         padding: 5px;
@@ -27,8 +33,7 @@
         color: black;
         font-size: 18px;
         width: 500px;
-        border-radius: 50px;
-        margin-left: 50px;   
+        border-radius: 50px; 
     }  
     .micro{
         width: 40px;
@@ -97,6 +102,7 @@
     
         .search-logo img{
             margin-left: auto;
+            width: 70px;
         }   
         .bell-img{
             display: none;
