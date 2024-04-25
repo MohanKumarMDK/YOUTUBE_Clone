@@ -62,16 +62,4 @@
     margin-top: 10px; 
     margin-bottom: 5px;
 }
-@media only screen and (max-width: 900px) {
-    nav{
-        flex-direction: column; 
-    }
-    .mobile-user{
-        display: flex;
-        flex: 1;
-        justify-content: flex-end;
-    }
-    .mobile-user img{
-        width: 25px;
-    }
-}
+

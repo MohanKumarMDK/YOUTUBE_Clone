@@ -12,7 +12,7 @@
         margin-bottom: 10px;
         flex-wrap: nowrap;
     }
-    .search-logo{
+    .search-logo img{
         width: 100px;
         object-fit: contain;
         cursor: pointer;
@@ -97,7 +97,8 @@
     @media only screen and (max-width: 900px) {
     
         .search-logo {
-            display: none;
+            width: 20px;
+            object-fit: contain;
         }    
         .bell-img{
             display: none;
@@ -109,11 +110,11 @@
             display: none;
         }
         .log-txt {
-            display: none;
+            margin-right: 300px;
+            padding: 0.1rem;
         }
         .search-box-pro input{
-            width: 200px;
-            margin-right: 300px;
+            width: 150px;
         }
     }
 
