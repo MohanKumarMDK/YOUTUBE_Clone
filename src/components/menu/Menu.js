@@ -52,7 +52,8 @@ const Menu = ({setSidebar,}) => {
                 <ListItemButton>
                     <ListItemIcon>
                     <MenuIcon onClick={()=>setSidebar(prev=>prev===false?true:false)}/>
-                    <img  className='search-logo' src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' />
+                    <div className='search-logo'>
+        <img   src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' /></div>
                     </ListItemIcon>
                 </ListItemButton>
             </ListItem>
