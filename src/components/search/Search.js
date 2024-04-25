@@ -30,6 +30,7 @@ const Search = () => {
         </div>
         </div> 
         <div className='log-txt'> 
+         <Link to='/SignUp' className='mobile-user' style={{display: 'none'}}><img  src='Image/user.png' alt='login'/></Link>
         <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >SignIn</Link></h2>
         </div>
     </div>

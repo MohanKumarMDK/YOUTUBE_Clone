@@ -108,12 +108,11 @@
         .micro-img{
             display: none;
         }
-    
-        .log-txt h2 {
-            display: none; 
+        .log-txt {
+            display: none;
         }
         .search-box-pro input{
-            width: 150px;
+            width: 200px;
             margin-right: 300px;
         }
     }
