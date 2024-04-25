@@ -43,11 +43,11 @@ const Searchaction = () => {
 <div className='Main'>
   <Menu />
         <Link to='/'><img  className='search-logo' src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' /></Link>
-        <div className='search-box-action'>
+        <div className='search-box-pro'>
         <form  onSubmit={handleSubmit}>
           <input  
           type="text"  
-          placeholder='Search Here' 
+          placeholder='Search' 
           autoFocus value={searchTerm} 
           onChange={handleChange} />
       </form>

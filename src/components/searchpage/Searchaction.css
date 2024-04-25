@@ -1,20 +1,3 @@
-
-.search-box-action{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  
-.search-box-action input {
-        padding: 5px;
-        background-Color: transparent;
-        border: 2px solid gray;
-        outline: 0;
-        color: black;
-        font-Size: 22px;
-        height: 2.5rem;
-        width: 500px;
-        border-radius: 50px;
-}  
 .vid-main{
         display: flex;
         flex-direction: column;
@@ -111,32 +94,26 @@
         text-decoration: none;
         color: blue;
     }
-    @media only screen and (max-width: 768px) {
-    .Main {
-        flex-direction: row;
-        align-items: flex-start;
+    @media only screen and (max-width: 900px) {
+    
+        .search-logo {
+            padding: 0 rem;
+        }    
+        .bell-img{
+            display: none;
+        }
+        .create-img{
+            display: none;
+        }
+        .micro-img{
+            display: none;
+        }
+    
+        .log-txt h2 {
+            display: none; 
+        }
+        .search-box-pro input{
+            width: 275px;
+        }
     }
-
-    .search-logo {
-        margin: 10px auto;
-    }
-
-    .search-box-action input {
-        margin: 10px auto;
-    }
-
-    .bell-img{
-        display: none;
-    }
-    .create-img{
-        display: none;
-    }
-    .micro-img{
-        display: none;
-    }
-
-    .log-txt {
-        margin: 10px auto;
-    }
-}
-     
+    

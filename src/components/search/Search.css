@@ -62,31 +62,8 @@
     margin-top: 10px; 
     margin-bottom: 5px;
 }
-@media only screen and (max-width: 768px) {
-    .Main {
+@media only screen and (max-width: 900px) {
+    nav{
         flex-direction: column; 
-    }
-
-    .search-logo {
-        margin: 10px auto; 
-    }
-
-    .search-box-pro input {
-        width: calc(100% - 20px); 
-        margin: 10px auto; 
-    }
-
-    .bell-img{
-        display: none;
-    }
-    .create-img{
-        display: none;
-    }
-    .micro-img{
-        display: none;
-    }
-
-    .log-txt h2 {
-        margin: 10px auto; 
     }
 }
