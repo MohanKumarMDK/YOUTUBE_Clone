@@ -42,7 +42,7 @@ const Searchaction = () => {
 <div>
 <div className='Main'>
   <Menu />
-        <Link to='/' className='search-logo'><img  src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' /></Link>
+        <Link to='/'className='search-logo'><img   src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' /></Link>
         <div className='search-box-pro'>
         <form  onSubmit={handleSubmit}>
           <input  
@@ -54,6 +54,7 @@ const Searchaction = () => {
       </div>
         <div className='micro-img'> 
         <img   className='micro' src='Image/micro.png' alt='micro' />
+        </div>
         <div className='create-img'> 
         <img   className='create' src='Image/upload.png' alt='micro' />
         </div>
@@ -61,10 +62,10 @@ const Searchaction = () => {
         <img  className='bell' src='Image/bell.png' alt='Bell'/>
         </div>
         <div className='log-txt'> 
-        <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >Sign In</Link></h2>
+         <Link to='/SignUp' className='mobile-user' style={{display: 'none'}}><img  src='Image/user.png' alt='login'/></Link>
+        <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >SignIn</Link></h2>
         </div>
-    </div>
-    </div> 
+        </div> 
 <br></br>
 
 <div>

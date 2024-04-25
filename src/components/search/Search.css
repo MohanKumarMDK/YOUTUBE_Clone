@@ -15,7 +15,7 @@
     padding: 0 10px; 
 }
 
-.search-logo{
+.search-logo img{
     width: 100px;
     object-fit: contain;
     cursor: pointer;
