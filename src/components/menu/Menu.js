@@ -25,21 +25,15 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 
 const Menu = ({setSidebar,}) => {
-
     const [state, setState] = React.useState({
-    
-        left: false,
-        
+        left: false,   
       });
-
       const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
           return;
         }
-    
         setState({ ...state, [anchor]: open });
       };
-
       const list = (anchor) => (
         <Box
           sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}

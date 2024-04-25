@@ -7,20 +7,14 @@ import { Link } from 'react-router-dom'
 
 const Recommended = ({categoryId}) => {
     console.log(categoryId);
-
     const [recom, setRecom] = useState([]);
-
     const fetData = async() =>{
         const relatedVideos_url=`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=10&regionCode=IN&videoCategoryId=0&key=${API_KEY}`;
         await fetch(relatedVideos_url).then(res => res.json().then(data=>setRecom(data.items)));
-
     }
-    
     useEffect(()=>{
         fetData();
     },[])
-
-
   return (
     <div className='recomend'>
         {recom?.map((item,index)=>{
