@@ -97,9 +97,9 @@
     @media only screen and (max-width: 900px) {
     
         .search-logo img{
-            width: 70px;
-            object-fit: contain;
-        }    
+            width: 900%;
+            margin-left: 5px;
+        }   
         .bell-img{
             display: none;
         }
