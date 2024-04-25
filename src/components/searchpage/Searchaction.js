@@ -60,11 +60,11 @@ const Searchaction = () => {
         <div className='bell-img'>
         <img  className='bell' src='Image/bell.png' alt='Bell'/>
         </div>
-        </div> 
         <div className='log-txt'> 
         <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >Sign In</Link></h2>
         </div>
     </div>
+    </div> 
 <br></br>
 
 <div>
