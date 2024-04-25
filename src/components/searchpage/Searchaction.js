@@ -1,3 +1,4 @@
+/*
 import React, { useState } from 'react';
 import PlayVideo from '../playvideo/PlayVideo';
 import axios from 'axios';
@@ -84,7 +85,7 @@ const Searchaction = () => {
 );
 }
 
-export default Searchaction  
+export default Searchaction  */
 
 
 
@@ -93,7 +94,7 @@ export default Searchaction
 
 /*------ This is the Suggetion Code it consist of 20% your quata per request  so use this code when you neaded-----*/
 
-/*
+
 import React, { useState } from 'react';
 import PlayVideo from '../playvideo/PlayVideo';
 import axios from 'axios';
@@ -161,8 +162,9 @@ const Searchaction = () => {
  <div>
 <div className='Main'>
     <Menu />
-        <Link to='/'><img  className='search-logo' src='https://t3.ftcdn.net/jpg/04/03/98/64/360_F_403986499_hB7zfgOXezReA0sKkxl34RoT9TbNkbpH.jpg' alt='logo' /></Link>
-        <div className='search-box-action'>
+    <div className='search-logo'>
+        <Link to='/'><img   src='https://t3.ftcdn.net/jpg/05/07/46/84/360_F_507468479_HfrpT7CIoYTBZSGRQi7RcWgo98wo3vb7.jpg' alt='logo' /></Link></div>
+        <div className='search-box-pro'>
         <form  onSubmit={handleSubmit}>
           <input  
           type="text"  
@@ -200,8 +202,8 @@ const Searchaction = () => {
           </div>
         ))}
       </div>
-    </div>
+      </div>
   );
 };
 
- export default Searchaction; */
+ export default Searchaction; 

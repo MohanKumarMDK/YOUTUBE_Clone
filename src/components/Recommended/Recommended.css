@@ -12,12 +12,18 @@
   
   .side-video-list img {
     width: 100%; 
-    max-width: 150px; 
+    max-width: 175px; 
   }
   
   .video-info {
     flex-basis: calc(50% - 10px); 
     margin-left: 10px; 
+  }
+  .video-info h4{
+    color: black;
+  } 
+  .channel-name{
+    color: grey;
   }
   
   
