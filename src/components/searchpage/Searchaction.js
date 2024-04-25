@@ -1,4 +1,3 @@
-/*
 import React, { useState } from 'react';
 import PlayVideo from '../playvideo/PlayVideo';
 import axios from 'axios';
@@ -64,7 +63,6 @@ const Searchaction = () => {
         <img  className='bell' src='Image/bell.png' alt='Bell'/>
         </div>
         <div className='log-txt'> 
-         <Link to='/SignUp' className='mobile-user' style={{display: 'none'}}><img  src='Image/user.png' alt='login'/></Link>
         <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >SignIn</Link></h2>
         </div>
         </div> 
@@ -85,7 +83,7 @@ const Searchaction = () => {
 );
 }
 
-export default Searchaction  */
+export default Searchaction 
 
 
 
@@ -95,7 +93,7 @@ export default Searchaction  */
 /*------ This is the Suggetion Code it consist of 20% your quata per request  so use this code when you neaded-----*/
 
 
-import React, { useState } from 'react';
+/* import React, { useState } from 'react';
 import PlayVideo from '../playvideo/PlayVideo';
 import axios from 'axios';
 import { API_KEY } from '../../data';
@@ -183,7 +181,7 @@ const Searchaction = () => {
         </div>
         </div> 
         <div className='log-txt'> 
-        <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >Sign In</Link></h2>
+        <h2><Link to='/SignUp' style={{textDecoration: 'none'}} >SignIn</Link></h2>
         </div>
     </div>
 <br></br>
@@ -206,4 +204,4 @@ const Searchaction = () => {
   );
 };
 
- export default Searchaction; 
+ export default Searchaction; */
